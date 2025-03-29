@@ -24,13 +24,9 @@ For the second query we can do the following operations:
 - Decrease nums[2] 1 time, so that nums = [5,5,5,8].
 - Decrease nums[3] 3 times, so that nums = [5,5,5,5].
 So the total number of operations for the second query is 2 + 4 + 1 + 3 = 10.
-    
-
-
-
 
 class Solution:
-    def bin(self,n,nums,queries):
+    def bin(self,nums,queries):
         low=0
         high=len(nums)-1
         while(low<=high):
