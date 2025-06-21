@@ -21,10 +21,7 @@ while(f!=0):
     f=f//10
     final_ans.append(ans[::-1])
     ans=[0,0,0]
-f_a=[]
 final_ans=final_ans[::-1]
 for i in range(len(final_ans)):
     for j in range(len(final_ans[0])):
-        f_a.append(final_ans[i][j])
-for i in f_a:
-    print(i,end="")
+        print(final_ans[i][j],end="")
