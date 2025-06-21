@@ -1,0 +1,11 @@
+num=33
+d=num
+rem=0
+pw=1
+ans=0
+while(d!=0):
+    rem=d%8
+    ans+=rem*pw
+    pw=pw*10
+    d=d//8
+print(ans)
