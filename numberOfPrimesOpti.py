@@ -1,3 +1,6 @@
+## Sieve Eratosthenes way
+## Time: O(n log logn)
+
 import math
 def primesInRange(queries):
         f_ans=[]
