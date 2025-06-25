@@ -1,6 +1,6 @@
 from queue import Queue
 class Solution:
-    def maxDepth(self, root: Optional[TreeNode]) -> int:
+    def maxDepth(self, root) -> int:
         q=Queue()
         l=0
         if (root is None):
