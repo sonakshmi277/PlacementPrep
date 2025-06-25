@@ -12,7 +12,7 @@ def check(array,length):
 
      if array[i] != array[0]:
          return False
-
+     print(array)
      return True
 
 #input array from user
@@ -20,3 +20,5 @@ array = [50, 100, 75]
 
 #determine length of array and assign to length variable
 length=len(array)
+d=check(array,length)
+print(d)

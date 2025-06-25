@@ -1,12 +1,10 @@
 from collections import defaultdict
-arr=[1,2,3,4,3]
-curr=arr[0]
-d=defaultdict()
+arr=[1,2,3,5,6,6]
+d=defaultdict(int)
 for i in arr:
-    if(i in d):
-        d[i]+=1
-    else:
-        d[i]=1
-arr=[i for i in arr if d[i]>1]
+    d[i]+=1
+for i in d:
+    if (d[i]==1):
+        arr.remove(i)
 print(arr)
 

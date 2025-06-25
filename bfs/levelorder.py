@@ -1,6 +1,6 @@
 from collections import deque
 class Solution:
-    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+    def levelOrder(self, root):
         if not root:
             return []
         q=deque()

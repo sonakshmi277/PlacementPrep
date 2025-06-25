@@ -1,11 +1,13 @@
-num=33
+num=394
 d=num
-rem=0
 pw=1
+rem=0
 ans=0
 while(d!=0):
     rem=d%8
     ans+=rem*pw
-    pw=pw*10
     d=d//8
+    pw=pw*10
 print(ans)
+
+
