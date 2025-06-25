@@ -8,6 +8,5 @@ for i in range(len(s)):
                 for k in s[i:j+1]:
                     d[k]+=1
                 d=dict(sorted(d.items(),key=lambda item:item[0]))
-               
                 ct+=max(d.values())-min(d.values())
 print(ct)
