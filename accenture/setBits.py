@@ -23,6 +23,7 @@ l=int(input())
 bit_ct=int(input())
 pw=0
 ans=-1
+
 for i in range(l):
     m=arr[i]
     ct=0
